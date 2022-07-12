@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quiz_background"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".LevelFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/firstLevelBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 уровень"/>
+    <Button
+        android:id="@+id/secondLevelBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 уровень"/>
+    <Button
+        android:id="@+id/thirdLevelBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3 уровень"/>
+
+</LinearLayout>
